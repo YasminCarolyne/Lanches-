@@ -1,0 +1,46 @@
+{
+  "Lanches": [
+    {
+      "Nome": "X-tudo",
+      "valor": 16,
+      "quantidade": 1,
+      "id": 1
+    },
+    {
+      "Nome": "X-calabresa",
+      "valor": 12,
+      "quantidade": 1,
+      "id": 2
+    },
+    {
+      "Nome": "X-egg",
+      "valor": 12,
+      "quantidade": 1,
+      "id": 3
+    },
+    {
+      "Nome": "X-salada",
+      "valor": 10,
+      "quantidade": 1,
+      "id": 4
+    },
+    {
+      "Nome": "X-bacon",
+      "valor": 12,
+      "quantidade": 1,
+      "id": 5
+    },
+    {
+      "Nome": "Hamburguer",
+      "valor": 10,
+      "quantidade": 1,
+      "id": 6
+    },
+    {
+      "cargo": "Auxiliar de loja",
+      "salário": 1200,
+      "quantidade": 21,
+      "id": 7
+    }
+  ]
+}
