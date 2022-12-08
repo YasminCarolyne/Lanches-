@@ -1,0 +1,94 @@
+{
+	"info": {
+		"_postman_id": "f55cde4c-fbf2-43c2-80e3-0c04eb49b10c",
+		"name": "lanches",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24823784"
+	},
+	"item": [
+		{
+			"name": "Lista de Lanches",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Inserir novo lanche",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "  {\r\n      \"Nome\": \"Hamburguer Artesanal \",\r\n      \"valor\": 30,\r\n      \"quantidade\": 1,\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/Lanches",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"Lanches"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Deletar Lanche",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/Lanches/8",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"Lanches",
+						"8"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Atualizar tabela de Lanches",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/Lanches",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"Lanches"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
